@@ -1,0 +1,38 @@
+.bodyAboutUs{
+    display: flex;
+    flex-direction: row;
+    background-color: #0e8340;
+    color: #f1efef !important;
+}
+.backgroundPatterAboutUs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background: url('./../../../assets/img/patternWallpaperPokeApp.png');
+    padding: 150px 0 150px 0;
+}
+.textAboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.textAboutUs h1{
+    margin: 5px 0 5px 0;
+}
+.textAboutUs p{
+    text-align: left;
+}
+.containerLogoPokemon{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width: 50%;    
+}
+.containerLogoPokemon img{
+    width: 80%;
+    height: auto;
+}

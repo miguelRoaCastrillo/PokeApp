@@ -1,0 +1,48 @@
+.containerBannerContent{
+    display: flex;
+    flex-direction: row;    
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    width: 80%;
+    height: 500px;
+    margin: 70px auto 70px auto; 
+    color: #232323;  
+    box-shadow: -1px 17px 15px 15px rgb(49 49 49 / 40%); 
+    overflow: hidden;
+}
+.forInfo{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;           
+}
+.forInfo h3{
+    font-size: 30px;
+}
+.forInfo strong{
+    text-align: left;
+    margin: 15px 0 8px 0;
+}
+.forInfo h3, .forInfo p,
+.forInfo ul, .forInfo li{
+    text-align: left;   
+    margin: 2px 0 2px 0; 
+}
+.containerInfo{
+    display: flex;
+    width: 50%;    
+}
+.containerImagePokemon{
+    width: 50%;
+    background: #ffffff;
+}
+.backPokeBall{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;   
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url('./../../assets/img/fondopokeball.png');
+    background-size: cover;
+}

@@ -1,0 +1,8 @@
+/*Estilos para el header*/
+.header{
+    background-color: #1D7874;
+}
+
+h1, h2, h3, h4, p{
+    font-family: 'Ubuntu';
+}
